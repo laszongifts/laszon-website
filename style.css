@@ -1,537 +1,600 @@
-body {
-    margin: 0%;
-    background-color: rgb(31, 29, 29);
-
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
     
-    
+    .background{
+        display: none;
+    }
 
-}
+    .newdiv{
+        display: none;
+    }
 
-.top01 {
-    background-color: rgb(201, 154, 68);
-    width: 50%;
-    height: 50px;
-    margin: auto;
-    border-radius: 0px 0px 60px 60px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
-.topcalltext {
-    margin: 0%;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    text-align: center;
-    padding-top: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
+    .root {
+        margin: 0%;
+        padding: 0%;
+        background-color: rgb(248, 248, 248);
+        width: 100%;
+        height: 650px;
+        padding-bottom: 60px;
+    }
 
-.top02 {
-    width: 100%;
-    height: 400px;
-    background-color: aqua;
-}
+    .nav {
+        background-color: #151515;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+        border-radius: 0px 0px 30px 30px;
+        text-align: center;
+    }
 
-.top021{
+    .logonavweb{
+        width: auto;
+        height: 35px;
+        margin-top: 19px;
+        float: left;
+        margin-left: 5%;
+    }
+    .logonav{
+       display: none;
+    }
 
-    width: 50%;
-    height: 400px;
-    background-color: blue;
-    margin: 0%;
-    float: left;
-    margin-bottom: 0%;
-   
-}
-.top022{
-    width: 50%;
-    height: 400px;
-    background-color: rgb(20, 182, 155);
-    float: right;
-    margin: 0%;
-    float: left;
-    
-}
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: right;
+       
+        
+       
+    }
+
+    .navtexttwo{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0%;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 11pt;
+        margin-right: -50px;
+
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 24px 50px;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 11pt;
+    }
+
+    .iconjoinus{
+        
+        width: 100%;
+        height: 150px;
+        color: rgb(20, 20, 20);
+        text-align: center;
+        font-size: 14pt;
+        font-family: "Montserrat", sans-serif;
+        margin-top: 30px;
+      
+    }
+
+    .buttoniconweb{
+        width: 30px;
+        margin-top: 10px;
+        
+    }
+      
+    .main {
+        display: flex;
+        margin-top: -15px;
+    }
+
+    .mobilebuttons{ 
+        width: 50%;
+        height: 150px;
+        
+    }
+
+    .mobilebuttonstwo{
+        width: 50%;
+        height: 150px;
+    }
+
+    .mbsocialbutton{
+        width: 250px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+
+    .mbsocialbuttontwo{
+        width: 250px;
+        height: auto;
+        display: block;
+        margin-left: 20px;
+        margin-right: auto;
+        margin-top: 10px;   
+    }
+
+
+
 
 .hithere{
-    background-color: rgb(201, 154, 68);
-    width: 160px;
-    height: 40px;
-    margin-left: 125px;
-    margin-top: 115px;
-    padding: auto;
-    border-radius: 30px 30px 30px 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      
-}
-.hitheretext{
-    text-align: center;
-    color: aliceblue;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
-    font-size: 14pt;
-    font-weight: 400;
-    padding-top: 7px;
-
-}
-
-.giftsbox{
-    width: 450px;
-    height: auto;
-    float: right;
-    margin-right: 90px;
-}
-
-.areyou{
-    color: aliceblue;
-    font-size: 17pt;
-    margin-left: 125px;
-    margin-top: 20px;
-    margin-bottom: 0%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    letter-spacing: 2px;
-}
-
-.perfect{
-    
-    margin-left: 125px;
-    margin-top: 0%;
-    font-size: 50pt;
-    font-family: 'Roboto', sans-serif;
-    color: transparent;
-    font-size: 50pt;
-    -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: white;
-    letter-spacing: 2px;
-}
-
-.top03{
-    background-color: aqua;
     width: 100%;
-    height: 220px;
-    margin: 0px;
-    padding: 0%;
-}
-
-.top03text{
-    width: 1000px;
-    height: 220px;
-    background-color: blueviolet;
-    margin-top: 0px;
-    padding-top: 20px;
-    margin: auto;
-}
-
-.hereyou{
-    color: aliceblue;
-    font-size: 25pt;
+    height: 150px;
     text-align: center;
-    margin-top: 9px;
-    margin-bottom: 0%;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-}
-
-.ourwebsite{
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    color: aliceblue;
-    font-size: 16pt;
-    margin-top: 20px;
-}
-
-.top04{
-    background-color: rgb(14, 102, 102);
-    width: 100%;
-    height: 270px;
-}
-.ordernow{
-    color: aliceblue;
-    font-size: 18pt;
     margin-top: 60px;
-    text-align: center;
-    margin: 0%;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.giftboxone{
+    display: none;
 }
 
 
-.top04text{
-    width: 600px;
-    background-color: brown;
-    height: 250px;
-    margin: auto;
-    padding-top: 20px;
-}
-
-.catalo{
-    width: 7cm;
-    height: auto;
-    padding: auto;
-    margin-left: 168px;
-    margin-top: 0px;
+.hitheretext{
+    font-size: 28px;
+    padding-top: 25px;
     margin-bottom: 0%;
+    color: #151515;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
 }
 
 
-.icons{
-    margin: auto;
-    padding-left: 160px;
-    padding-top: 0px;
-    font-size: 20pt;
+.hitheretext2{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #151515;
+    font-family: "Montserrat", sans-serif;
+    line-height: 23px;
+    margin-bottom: 10px;
 }
 
-.fa {
-    padding: 18px;
-    width: 25px;
-    height: 25px;
+.giftbox{
+    display: none;
+}
+
+
+.callnowtextweb{
     text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-whatsapp {
-    background: #ffffff;
-    color: rgb(15, 15, 15);
-  }
-  
-  .fa-facebook {
-    background: #ffffff;
-    color: rgb(15, 15, 15);
-  }
-  
-  .fa-instagram {
-    background: #ffffff;
-    color: rgb(15, 15, 15);
-  }
+        font-size: 13.5pt;
+        font-family: "Montserrat", sans-serif;
+        margin-top: -6px;
+        color: #151515;
+        font-weight: 600;
+        animation: blinker 2s linear infinite;
+        text-decoration: none;
+      
+        
+    }
 
-  .fa-phone{
-    background: #ffffff;
-    color: rgb(15, 15, 15);
-  }
+    @keyframes blinker {
+        35% {
+          opacity: 0;
+        }
+      }
 
-
-.top05 {
-    background-color: rgb(245, 159, 1);
-    width: 100%;
-    height: 300px;
-    margin: auto;
-    
+.mobilehithere{
+    display: none;
 }
 
-.laszonlogo{
-    width: 200px;
+.joinusweb{
+    font-family: "Montserrat", sans-serif;
+    font-size: 13pt;
+    margin-top: 65px;
+    color: #151515;
+    text-align: center;
+}
+
+
+
+.logo{
+    width: 180px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 35px;
-
-}
-
-.theartof{
-    color: #ffffff;
-    font-size: 13pt;
-    letter-spacing: 8px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 0%;
-}
-
-
-
-.loader {
-    width: 50px;
-    height: 50px;
-    margin: 0 auto;
-    border-top: 5px solid rgb(201, 154, 68);
-    border-right: 5px solid #efefef;
-    border-bottom: 5px solid #efefef;
-    border-left: 5px solid #efefef;
-    border-radius: 100px;
-    animation: spin 1s infinite linear;
-    margin-top: 25px;
-  }
+    margin-top: 80px;
   
-  @keyframes spin {
-    100% {
-      transform: rotate(360deg);
-    }
-  }
+}
+
+
+.secondnav{
+    display: none;
+}
 
 
 
 
-@media screen and (max-width:415px) {
 
-.top01 {
-        background-color: rgb(201, 154, 68);
-        width: 70%;
-        height: 30px;
-        margin: auto;
-        border-radius: 0px 0px 30px 30px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer img {
+    width: 130px;
+    height: auto;
+}
+.footer p {
+    margin: 5px 0;
+}
+
+.footer {
+    background-color:#151515;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    width: 100%;
+    position: relative; /* Ensures it stays in place */
+    bottom: 0;
+    margin-top: auto; /* Pushes it to the bottom */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) 
+
+
+
+
+{
+
+
+   
     
-.topcalltext {
+
+    .root {
         margin: 0%;
-        color: rgb(255, 255, 255);
-        font-size: 9px;
-        text-align: center;
-        padding-top: 7px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        letter-spacing: 2px;
-    }
-
-
-    .top02 {
-        width: 100%;
-        height: 190px;
-        background-color: aqua;
-    }
-    
-    .top021{
-    
-        width: 60%;
-        height: 190px;
-        background-color: blue;
-        margin: 0%;
-        float: left;
-        margin-bottom: 0%;
-       
-    }
-    .top022{
-        width: 40%;
-        height: 190px;
-        background-color: rgb(20, 182, 155);
-        float: right;
-        margin: 0%;
-        float: left;
-        
-    }
-
-
-    .hithere{
-        background-color: rgb(201, 154, 68);
-        width: 90px;
-        height: 25px;
-        margin-left: 20px;
-        margin-top: 55px;
-        padding: auto;
-        border-radius: 30px 30px 30px 30px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          
-    }
-    .hitheretext{
-        text-align: center;
-        color: aliceblue;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 2px;
-        font-size: 8pt;
-        font-weight: 400;
-        padding-top: 6px;
-    
-    }
-    
-    .giftsbox{
-        width: 200px;
-        height: auto;
-        float: right;
-        margin-right: 0px;
-    }
-    
-    .areyou{
-        color: aliceblue;
-        font-size: 9pt;
-        margin-left: 20px;
-        margin-top: 13px;
-        margin-bottom: 0%;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        letter-spacing: 2px;
-    }
-
-
-    .perfect{
-    
-        margin-left: 20px;
-        margin-top: 3px;
-        font-family: 'Roboto', sans-serif;
-        color: transparent;
-        font-size: 19pt;
-        -webkit-text-stroke-width: 0.4px;
-        -webkit-text-stroke-color: white;
-        letter-spacing: 2px;
-    }
-    
-    .top03{
-        background-color: aqua;
-        width: 100%;
-        height: 220px;
-        margin: 0px;
         padding: 0%;
-    }
-    
-    .top03text{
         width: 100%;
-        height: 220px;
-        background-color: blueviolet;
-        margin-top: 0px;
-        padding-top: 20px;
-        margin: auto;
-    }
-    
-    .hereyou{
-        color: aliceblue;
-        font-size: 25pt;
-        text-align: center;
-        margin-top: 9px;
-        margin-bottom: 0%;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 600;
-    }
-    
-    .ourwebsite{
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-        color: aliceblue;
-        font-size: 16pt;
-        margin-top: 20px;
+        height: 900px;
+        padding-bottom: 500px;
     }
 
+   
 
-    .top04{
-        background-color: rgb(14, 102, 102);
+    .background{
         width: 100%;
-        height: 270px;
-    }
-    .ordernow{
-        color: aliceblue;
-        font-size: 18pt;
-        margin-top: 60px;
-        text-align: center;
-        margin: 0%;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 1px;
-    }
-    
-    
-    .top04text{
-        width: 100%;
-        background-color: brown;
-        height: 250px;
-        margin: auto;
-        padding-top: 20px;
-    }
-    
-    .catalo{
-        width: 3.5cm;
         height: auto;
-        padding: auto;
-        margin-left: 168px;
-        margin-top: 0px;
-        margin-bottom: 0%;
+        margin: 0%;
+        padding: 0%;
+        margin-bottom: -60px;
+        display: inline;
     }
-    
-    
-    .icons{
-        margin: auto;
-        padding-left: 60px;
-        padding-top: 0px;
-        font-size: 20pt;
+    .navtext {
+        display: none;
     }
-    
-    .fa {
-        padding: 18px;
-        width: 25px;
-        height: 25px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-        border-radius: 50%;
+    .navtexttwo {
+        display: none;
     }
-      
-      .fa:hover {
-          opacity: 0.7;
-      }
-      
-      .fa-whatsapp {
-        background: #ffffff;
-        color: rgb(15, 15, 15);
-      }
-      
-      .fa-facebook {
-        background: #ffffff;
-        color: rgb(15, 15, 15);
-      }
-      
-      .fa-instagram {
-        background: #ffffff;
-        color: rgb(15, 15, 15);
-      }
-    
-      .fa-phone{
-        background: #ffffff;
-        color: rgb(15, 15, 15);
-      }
-    
-    
-    .top05 {
-        background-color: rgb(245, 159, 1);
+   
+
+
+    .nav {
+        background-color: #151515;
         width: 100%;
-        height: 300px;
+        height: 80px;
         margin: auto;
+        border-radius: 0px 0px 60px 60px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        position: fixed;
+        top: 0%;
+    }
+
+    .logonav{
+        width: auto;
+        height: 37px;
+        margin-top: 22px;
+        float: none;
+        margin-left: 8px;
+        display: inline-flex;
+    }
+
+    .logonavweb{
+      display: none;
+    }
+
+    
+    
+    .hithere{
+        display: none;
+    }
+    
+    .mobilehithere{
+        display: list-item;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 100px;
         
     }
-    
-    .laszonlogo{
-        width: 150px;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 35px;
-    
-    }
-    
-    .theartof{
-        color: #ffffff;
-        font-size: 13pt;
-        letter-spacing: 8px;
+
+    .welcome{
+        color: #1e1406;
         text-align: center;
-        font-family: 'Roboto', sans-serif;
-        margin-top: 0%;
+        font-size: 16pt;
+       font-weight: 300;
+        margin-top: 55px;
+        font-family: "Raleway", sans-serif;
+        
     }
+    .welcome2{
+        color: #1e1406;
+        text-align: center;
+        font-size: 15pt;
+       font-weight: 500;
+       margin-top: -12px;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 1px;
+        
+    }
+
+    .callnowtext{
+            text-align: center;
+            font-size: 111%;
+            font-family: "Montserrat", sans-serif;
+            margin-top: -6px;
+            color: #1e1406;
+            font-weight: 600;
+            animation: blinker 2s linear infinite;
+            text-decoration: none;
+            letter-spacing: 1px;
+            
+        }
     
-    
-    
-    .loader {
-        width: 50px;
-        height: 50px;
-        margin: 0 auto;
-        border-top: 5px solid rgb(201, 154, 68);
-        border-right: 5px solid #efefef;
-        border-bottom: 5px solid #efefef;
-        border-left: 5px solid #efefef;
-        border-radius: 100px;
-        animation: spin 1s infinite linear;
-        margin-top: 25px;
-      }
-      
-      @keyframes spin {
-        100% {
-          transform: rotate(360deg);
+   
+
+    @keyframes blinker {
+        30% {
+          opacity: 0;
         }
       }
+
+
+
+   
+    .thankyou{
+        text-align: center;
+        font-size: 10.5pt;
+        font-family: "Raleway", sans-serif;
+        line-height: 17px;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        color: #141414;
+    }
+
+
+
+    .secondnav{
+        background-color: #f5f5f5;
+        width: 100%;
+        height: 800px;
+        border-radius: 60px 60px 0px 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: list-item;
+        position: absolute;
+        text-align: center;
+      
+        
+        
+    }
+
+    .joinus{
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        margin-top: 66px;
+        color: #161616;
+        letter-spacing: 0px;
+        text-align: center;
+        font-weight:300;
+        margin-bottom: 40px;
+    }
+
+
+    .buttons{
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        background-color: #ffeeef;
+        height: 300px;
+        
+    }
+
+
+    .socialbutton{
+        width: 270px;
+        margin-top: 0%;
+        height: auto;
     
+    }
+    
+
+    .mobilebuttons{
+        display: none;
+    }
+
+    .mobilebuttonstwo{
+        display: none;
+    }
+
+
+    .buttonicon{
+        width: 100%;
+        height: 41px;
+        margin-bottom: 4px;
+        margin-top: -25px;
+    }
+
+
+    .newdiv{
+        display: inline;
+    }
+
+
+    .footer {
+        background-color:#151515;
+        color: white;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        width: 100%;
+        position: relative; /* Ensures it stays in place */
+        bottom: 0;
+        margin-top: auto; /* Pushes it to the bottom */
+    }
+
+    .footer img {
+        width: 90px;
+        height: auto;
+    }
+
+
+
+
+
+
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding-top: 25px;
+        
+
+    }
+    
+    .social-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 220px;
+        padding: 4px 4px;
+        margin-top: 3px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-weight: bold;
+        transition: transform 1.3s ease-in-out;
+        animation: pulse 1s infinite alternate;
+        margin: auto;
+    }
+   
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        100% { transform: scale(1.05); }
+    }
+        
+
+    
+    .social-text {
+        flex-grow: 1;
+        text-align: left;
+        padding-left:35px;
+    }
+    .whatsapp { background: #925623; }
+    .whatsapp:hover { background: #4c2d12; }
+    .instagram { background: #925623; }
+    .instagram:hover { background: #4c2d12; }
+    .facebook { background: #925623; }
+    .facebook:hover { background: #4c2d12; }
+    .call { background: #925623; }
+    .call:hover { background: #4c2d12;   }
+
+
+
+    .icon-container {
+        width: 40px;
+        height: 40px;
+        background: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-button img {
+        width: 20px;
+        height: 20px;
+        filter: brightness(0) invert(0);
+    }
 
 
     
-  }
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+   
+
+
+    
+    
+}
+    
+
+
+
+
+
+
+
+
