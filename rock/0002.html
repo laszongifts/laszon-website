@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="product-detail.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    
+    <img src="img/Vanity.png" alt="Logo" class="logo" />
+  </nav>
+
+  <!-- Main Content -->
+  <main class="product-detail-container">
+    <!-- Image Gallery -->
+    <div class="gallery">
+      <img src="img/0002/01.jpg" alt="Main Product Image" id="mainImage" class="main-img" />
+      <div class="thumbnail-group">
+        <img src="img/0002/01.jpg" alt="Thumb 1" class="thumb active" onclick="changeImage(this)" />
+        <img src="img/0002/02.jpg" alt="Thumb 2" class="thumb" onclick="changeImage(this)" />
+        <img src="img/0002/03.jpg" alt="Thumb 3" class="thumb" onclick="changeImage(this)" />
+      </div>
+    </div>
+
+    <!-- Product Info -->
+    <div class="info">
+      <h1>Rock Photo Frame</h1>
+      <p class="price">₹630</p>
+      <p class="description">
+        This is a beautifully crafted piece, designed with attention to detail and elegance.
+        A perfect gift or a personal treasure for your space.
+      </p>
+      <p class="description">
+        Product Code : 0002
+      </p>
+      <a href="https://wa.me/917373787476?text=Hi%2C%20I%20want%20to%20order%20Product%20Code%20%3A%200002" class="order-btn">Order Now</a>
+    </div>
+  </main>
+
+  <!-- Script -->
+  <script>
+    function changeImage(el) {
+      document.getElementById("mainImage").src = el.src;
+      document.querySelectorAll(".thumb").forEach(t => t.classList.remove("active"));
+      el.classList.add("active");
+    }
+  </script>
+
+
+<div class="bottom-nav">
+  <a href="../index.html" class="nav-item">
+    <img src="img/home icon new.svg" alt="Home" />
+  </a>
+  <a href="../product.html" class="nav-item">
+    <img src="img/shop icon new.svg" alt="Products" />
+  </a>
+  <a href="../categories.html" class="nav-item">
+    <img src="img/contact icon new.svg" alt="Contact" />
+  </a>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
