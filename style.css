@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #fef8e7; /* light pastel gold */
+    background-color: #fcfcfc; /* light pastel gold */
     height: 100vh;
   }
 
@@ -253,6 +253,9 @@ body {
     100% { transform: translateX(0%); }
   }
   
+
+
+  
   
 
 
@@ -325,6 +328,48 @@ body {
 
 
 
+/* Floating Button Container */
+.catalogue-btn {
+  position: fixed;
+  bottom: 55px; /* increased padding from bottom */
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 9999;
+  animation: floatPulse 2.5s infinite ease-in-out;
+}
+
+/* Button Image */
+.catalogue-btn img {
+  width: 300px;   
+  max-width: 105%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .catalogue-btn {
+    bottom: 60px; /* also increased on mobile */
+  }
+
+  .catalogue-btn img {
+    width: 300px;
+  }
+}
+
+/* Simple attraction animation */
+@keyframes floatPulse {
+  0%   { transform: translateX(50%) translateY(0); }
+  50%  { transform: translateX(50%) translateY(-6px); }
+  100% { transform: translateX(50%) translateY(0); }
+}
+
+
+
+
+
+
+
 
 
   @media (max-width: 768px) {
@@ -332,7 +377,7 @@ body {
     body {
         margin: 0;
         font-family: 'Poppins', sans-serif;
-        background-color: #fef8e7; /* light pastel gold */
+        background-color: #f7f7f7; /* light pastel gold */
         height: 1850px;
       }
 
